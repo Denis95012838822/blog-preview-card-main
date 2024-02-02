@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@600;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+:root{
+    --Yellow: hwb(47 31% 4%);
+    --White: hsl(0, 0%, 100%);
+    --Grey: hsl(0, 0%, 50%);
+    --Black: hsl(0, 0%, 7%);
+    --family:'Figtree', sans-serif;
+}
+body{
+    background-color: var(--Yellow);
+    font-family: var();
+}
+.card__container{
+    width: 25%;
+    min-width: 340px;
+    margin: 200px auto;
+    background-color: var(--White);
+    border: 1px solid var(--Black);
+    border-radius: 20px;
+    box-shadow: 12px 12px var(--Black);
+}
+.container{
+    padding: 20px;
+    overflow: hidden;
+    object-fit: cover;
+}
+.img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.Learning{
+    margin: 10px 0;
+    ;
+}
+.ini{
+    background-color: var(--Yellow);
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: var(--Black);
+}
+.subtitulo{
+    font-size: 0.7rem;
+    margin: 10px 0;
+    padding-top: 10px;
+}
+.tirulo{
+   margin: 20px 0;
+}
+.tirulo:hover{
+    cursor: pointer;
+    color: var(--Yellow);
+}
+.parrafo{
+    color: var(--Grey);
+}
+.final{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.final__img{
+    width: 15%;
+    padding-right: 10px;
+}
+@media (max-width:400px) {
+
+    .card__container{
+       width: 80%;
+       min-width: 200px;
+    }
+}
